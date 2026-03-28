@@ -3,7 +3,7 @@
 
 > **Autora:** L. Ruth Collia  
 > **Curso:** Prompt Engineer — CoderHouse  
-> **Año:** 2024–2025
+> **Año:** 2026
 
 ---
 
