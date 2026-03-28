@@ -3,7 +3,7 @@
 
 > **Autora:** L. Ruth Collia  
 > **Curso:** Prompt Engineer — CoderHouse  
-> **Año:** 2026
+> **Año:** 2024–2025
 
 ---
 
@@ -35,6 +35,25 @@ Este proyecto diseña e implementa un **sistema de prompts** que:
 - ✅ Audita que ninguna respuesta prometa algo fuera de las políticas
 - ✅ Compara resultados entre **Claude** y **Gemini**
 - ✅ Genera piezas visuales para Instagram y WhatsApp (texto-imagen)
+
+### 🔎 ¿Por qué Claude y Gemini en lugar de GPT?
+
+La comparación se definió entre **Claude (Anthropic)** y **Gemini (Google)** por las siguientes razones concretas:
+
+| Criterio | Claude | Gemini | GPT (OpenAI) |
+|---|---|---|---|
+| **Acceso gratuito para la POC** | ✅ claude.ai free tier | ✅ Google AI Studio free | ⚠️ Créditos limitados, vence rápido |
+| **Seguimiento estricto de instrucciones** | Muy alto (foco del proyecto) | Alto | Alto, pero más "creativo" en edge cases |
+| **Perfil de mercado** | Empresa / compliance | Consumer / multimodal | Consumer / general |
+| **Relevancia para el caso de uso** | ✅ Ideal para reglas duras | ✅ Buen tono conversacional | ✅ Similar a Gemini |
+
+**Decisión:** GPT-3.5/4 fue considerado en la planificación inicial, pero se priorizó Claude y Gemini porque:
+
+1. **Disponibilidad práctica:** ambos tienen planes gratuitos funcionales para correr los 10 casos de prueba sin restricciones de cuota durante el desarrollo de la POC.
+2. **Contraste más informativo:** Claude está optimizado para seguir instrucciones con precisión (ideal para guardrails estrictos), mientras que Gemini prioriza respuestas naturales y conversacionales. Esta diferencia de enfoque genera una comparativa más rica que dos modelos de perfil similar.
+3. **GPT como extensión futura:** se documenta como próximo paso incorporar GPT-4o al set de pruebas para validar si los prompts son portables entre los tres proveedores.
+
+> En síntesis: la elección no fue por limitación técnica sino por **maximizar el contraste analítico** con los recursos disponibles para la POC.
 
 ---
 
